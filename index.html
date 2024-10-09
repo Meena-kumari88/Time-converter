@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/88/30/f9/8830f962-3d4a-e430-a6b7-4948f349b113/source/512x512bb.jpg" alt="Logo" class="logo"> 
+      <span class="site-name">Time Converter</span>
+    </div>
+    <div class="navbar-right">
+      <a href="index.html">Home</a>
+      <a href="#">Instructions</a>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <div class="container">
+    <h1>Time Converter</h1>
+    <div class="converter-box">
+      <label for="inputTime">Enter Time (12-hour or 24-hour format):</label>
+      <input type="text" id="inputTime" placeholder="e.g. 5:15PM or 17:15">
+      <button id="convertButton">Convert Time</button>
+    </div>
+    <div class="result-box">
+      <h2>Converted Time:</h2>
+      <p id="convertedTime">--:--</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Time Converter</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

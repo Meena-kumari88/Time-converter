@@ -1,0 +1,137 @@
+
+  
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+   
+    background: url('https://static.vecteezy.com/system/resources/previews/026/857/744/non_2x/of-three-clocks-on-a-table-with-a-plant-representing-the-passing-of-time-and-a-peaceful-ambiance-with-copy-space-free-photo.jpg');
+  }
+  
+  
+  /* Navbar styles */
+  .navbar {
+    backdrop-filter: blur(10px);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border: #ccc;
+    border-radius: 20px;
+  }
+  
+  .site-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .navbar-right{
+    margin-right: 20rem;
+  }
+  
+  .navbar-right a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding:0 3rem 0 3rem;
+  }
+  
+  .navbar-right a:hover {
+    text-decoration: underline;
+  }
+
+  .container {
+    background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+  margin: 13rem auto;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .converter-box {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .result-box {
+    margin-top: 20px;
+  }
+  
+  #convertedTime {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Footer styles */
+  .footer {
+    backdrop-filter: blur(10px);
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  
