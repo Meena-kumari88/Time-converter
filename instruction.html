@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instructions - Time Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/88/30/f9/8830f962-3d4a-e430-a6b7-4948f349b113/source/512x512bb.jpg" alt="Logo" class="logo"> 
+      <span class="site-name">Time Converter</span>
+    </div>
+    <div class="navbar-right">
+      <a href="index.html">Home</a>
+      <a href="#">Instructions</a>
+    </div>
+  </nav>
+
+   <!-- Instructions Section -->
+   <div class="container">
+    <h1>Instructions for Using the Time Converter</h1>
+    
+    <div class="instructions-box">
+      <h2>Overview</h2>
+      <p>This Time Converter allows you to easily convert time between the 12-hour format (AM/PM) and the 24-hour (military) format. You can input a time in either format, and the application will display the equivalent time in the other format.</p>
+
+      <h2>How to Use</h2>
+      
+      <h3>Input Field:</h3>
+      <ul>
+        <li>Enter the time in either 12-hour format or 24-hour format into the text box.</li>
+        <li>Examples of valid inputs:</li>
+        <ul>
+          <li><strong>12-hour format:</strong> 5:15PM, 11:30AM</li>
+          <li><strong>24-hour format:</strong> 17:15, 09:30</li>
+        </ul>
+      </ul>
+      
+      <h3>Convert the Time:</h3>
+      <ul>
+        <li>Click the "Convert Time" button or press the "Enter" key to see the converted time.</li>
+        <li>The result will appear below the input box in the "Converted Time" section.</li>
+      </ul>
+
+      <h2>Examples of Conversion:</h2>
+      <ul>
+        <li><strong>Input:</strong> 5:15PM → <strong>Output:</strong> 17:15 (24-hour format)</li>
+        <li><strong>Input:</strong> 17:15 → <strong>Output:</strong> 5:15PM (12-hour format)</li>
+        <li><strong>Input:</strong> 12:00AM → <strong>Output:</strong> 00:00 (midnight in 24-hour format)</li>
+        <li><strong>Input:</strong> 00:00 → <strong>Output:</strong> 12:00AM (midnight in 12-hour format)</li>
+        <li><strong>Input:</strong> 12:00PM → <strong>Output:</strong> 12:00 (noon in 24-hour format)</li>
+      </ul>
+
+      <h2>Input Guidelines:</h2>
+      <h3>12-Hour Format:</h3>
+      <ul>
+        <li>Must include AM or PM at the end.</li>
+        <li>Example: 10:45AM, 07:30PM</li>
+      </ul>
+
+      <h3>24-Hour Format:</h3>
+      <ul>
+        <li>Only enter the hours and minutes, separated by a colon (:).</li>
+        <li>Example: 16:20, 23:45</li>
+      </ul>
+
+      <h2>Notes:</h2>
+      <ul>
+        <li><strong>Valid Input Range:</strong></li>
+        <ul>
+          <li>For the 12-hour format, hours must be between 1 and 12 and followed by either AM or PM.</li>
+          <li>For the 24-hour format, hours must be between 00 and 23, and minutes must be between 00 and 59.</li>
+        </ul>
+        <li><strong>Invalid Inputs:</strong> If you enter an invalid time, the system will notify you with an error message like "Invalid time."</li>
+      </ul>
+
+      <h2>Keyboard Shortcuts:</h2>
+      <ul>
+        <li>After entering the time in the input field, simply press the "Enter" key on your keyboard to convert the time without having to click the button.</li>
+      </ul>
+    </div>
+  </div>
+
+ 
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Time Converter</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -43,7 +43,7 @@
     font-weight: bold;
   }
   .navbar-right{
-    margin-right: 20rem;
+    margin-right: 10rem;
   }
   
   .navbar-right a {
@@ -64,7 +64,7 @@
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 400px;
+  width: 500px;
   margin: 13rem auto;
   }
   
@@ -75,6 +75,7 @@
   }
   h2{
     color:white; 
+    padding-bottom: 10px;
   }
   
   .converter-box {
@@ -96,6 +97,8 @@
     border-radius: 5px;
     font-size: 16px;
   }
+ 
+  
   
   button {
     padding: 10px 20px;
@@ -108,7 +111,7 @@
   }
   
   button:hover {
-    background-color: #061c01;
+    background-color: #046c7a;
   }
   
   .result-box {
