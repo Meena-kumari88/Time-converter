@@ -59,7 +59,7 @@
   }
 
   .container {
-    background-color: #fff;
+    background-color: #0e1c06;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -71,7 +71,10 @@
   h1 {
     margin-bottom: 20px;
     font-size: 24px;
-    color: #333;
+    color:white;
+  }
+  h2{
+    color:white; 
   }
   
   .converter-box {
@@ -81,7 +84,7 @@
   label {
     display: block;
     font-size: 14px;
-    color: #666;
+    color: #897912;
     margin-bottom: 10px;
   }
   
@@ -96,7 +99,7 @@
   
   button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #4c4d4f;
     color: white;
     border: none;
     border-radius: 5px;
@@ -105,7 +108,7 @@
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #061c01;
   }
   
   .result-box {
@@ -115,7 +118,7 @@
   #convertedTime {
     font-size: 20px;
     font-weight: bold;
-    color: #333;
+    color: white;
   }
   
   /* Footer styles */
